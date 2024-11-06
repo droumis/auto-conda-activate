@@ -12,6 +12,8 @@ aca myenv             # Regular conda activate behavior
 ## What?
 A shell function that makes conda environments activate themselves just by looking at your current folder's `environment.yml` file.
 
+## Installation
+1. Copy this chunk of code:
 ```bash
 auto-conda-activate() {
    # Automatically detect and use the right shell hook
@@ -53,12 +55,10 @@ auto-conda-activate() {
 }
 alias 'aca'='auto-conda-activate'
 ```
-## Installation
-1. Copy that chunk of code up there
-2. Find your shell's config file (`~/.zshrc` or `~/.bashrc`)
-3. Paste at bottom
-4. Source your config (`source ~/.bashrc` or `source ~/.zshrc`) or start a new terminal
-5. That's it.
+3. Find your shell's config file (`~/.zshrc` or `~/.bashrc`)
+4. Paste at bottom
+5. Source your config (`source ~/.bashrc` or `source ~/.zshrc`) or start a new terminal
+6. That's it.
 
 ## Features
 - Auto-detects bash/zsh - no manual configuration needed
