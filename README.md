@@ -77,6 +77,7 @@ A: Nothing, if you enjoy remembering all your bad env names and typing 20+ chara
 A: Because sometimes I'm a multi-directory-single-environment agent of chaos, and also because I don't want to mess with my `cd` command.
 
 ## Prior Art
+- https://github.com/conda/conda/issues/5179
 - https://github.com/vallops99/Conda-autoactivate-env
 - https://github.com/hyperupcall/autoenv
 - https://github.com/Tarrasch/zsh-autoenv
