@@ -69,8 +69,8 @@ alias 'aca'='auto-conda-activate'
 - Still works with regular `conda activate myenv` style commands
 - Zero dependencies (except, you know, conda... and awk... and a shell...)
 
-## FAQ
-**Q: What's wrong with typing `conda activate blahblahblah`?**  
+## Q&A
+**Q: Why can't you just look in your `environment.yml` for the name and type `conda activate blahblahblah1422341bfinal`?**  
 A: Nothing, if you enjoy remembering all your bad env names and typing 20+ characters instead of 3 all the time.
 
 **Q: Why not auto-activate or deactivate when entering and leaving the directory?**  
