@@ -10,9 +10,10 @@ aca myenv             # Regular conda activate behavior
 
 
 ## What?
-A shell function that makes conda environments activate themselves just by looking at your current folder's `environment.yml` file.
+A shell function for `bash` or `zsh` that makes conda environments activate themselves just by looking at your current folder's `environment.yml` file.
 
 ## Installation
+0. If you don't have one, make `environment.yml` and include `name: <my_env_name>`
 1. Copy this chunk of code:
 ```bash
 auto-conda-activate() {
