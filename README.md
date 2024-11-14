@@ -76,6 +76,14 @@ A: Nothing, if you enjoy remembering all your bad env names and typing 20+ chara
 **Q: Why not auto-activate or deactivate when entering and leaving the directory?**  
 A: Because sometimes I'm a multi-directory-single-environment agent of chaos, and also because I don't want to mess with my `cd` command.
 
+**Q: Why not use a dedicated config file instead of defaulting to `environment.yml`?**
+A: You can absolutely maintain a dedicated config file, such as `.acarc.yml`. Just make sure it includes a single `name: <env_name>`, then activate it with `aca .acarc`. This approach can be helpful if you have multiple environments for the project and want to comment out or switch between different environment options without cluttering your sacred `environment.yml`. For example:
+```yml
+# .acarc.yml
+# name: bad_name1 # Initial environment as per instructions
+name: bad_name2 # Fixed a thing that the instructions didn't mention -_-
+```
+
 ## Prior Art
 - https://github.com/conda/conda/issues/5179
 - https://github.com/vallops99/Conda-autoactivate-env
