@@ -1,5 +1,5 @@
 # (`aca`) auto-conda-activate
-Because it's ![Current Year](https://img.shields.io/static/v1?label=&message=2024&color=black) and you don't have the time to be scrolling through your list of bad env names...
+Because you don't have the time to be scrolling through your list of bad env names...
 
 ## Usage
 ```bash
